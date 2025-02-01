@@ -1,7 +1,7 @@
 /* General Styles */
 body {
   font-family: 'Poppins', sans-serif;
-  background-image: url('assets/food-bg.jpg');
+  background-image: url('assets/food-bg.jpeg');
   background-size: cover;
   background-position: center;
   color: #333;
@@ -44,8 +44,11 @@ p {
 }
 
 .input-section {
+  margin-top: px;
   margin-bottom: 2rem;
 }
+
+
 
 input {
   width: 80%;
@@ -62,6 +65,7 @@ input:focus {
 }
 
 button {
+  margin-top: 20px;
   padding: 0.8rem 2rem;
   background: #ff6f61;
   color: white;
