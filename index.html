@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>neuralChef - AI Recipe Generator</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="assets/chef-icon.png" alt="neuralChef Logo" class="logo">
+      <h1>neuralChef</h1>
+      <p>Your AI-powered recipe generator</p>
+    </header>
+
+    <main>
+      <div class="input-section">
+        <input type="text" id="ingredients" placeholder="Enter ingredients (e.g., chicken, rice, tomatoes)">
+        <button id="generate-btn">Generate Recipe</button>
+      </div>
+
+      <div class="output-section">
+        <div class="loading" id="loading">
+          <img src="assets/loading.gif" alt="Loading...">
+          <p>Generating your recipe...</p>
+        </div>
+        <div class="recipe" id="recipe-output"></div>
+      </div>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
